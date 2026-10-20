@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="timeofday">
+            <p id="date"></p>
+            <p id="time"></p>
+        </div>
+        <img src="icon-moon.png" alt="" id="theme">
+    </header>
+    <main>
+        <div class="stopwatch">
+            <p class="label">ELAPSED TIME</p>
+            <div class="timerring">
+                <div class="timer">
+                    <span id="display">00:00:00.00</span>
+                    <div class="times">
+                        <span>HOURS</span>
+                        <span>MINUTES</span>
+                        <span>SECONDS</span>
+                        <span>HUNDRETHS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start"><img src="icon-start.png" alt="">Start</button>
+                <button id="lap"><img src="icon-flag.png" alt="">Lap</button>
+                <button id="reset"><img src="icon-reset.png" alt="">Reset</button>
+            </div>
+        </div>
+        <div class="laptimesdisplay">
+            <div class="laptimeslabel">
+                <p>Lap times</p>
+                <button id="clear">Clear</button>
+            </div>
+            <div class="laptimes">No lap times yet</div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
