@@ -179,7 +179,7 @@ body.dark .laptimesdisplay {
     color: whitesmoke;
 }
 
-@media (max-width: 1646px) {
+@media (max-width: 1843px) {
     body {
         margin: 10px 450px;
     }
