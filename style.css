@@ -139,6 +139,7 @@ body.dark #lap {
 .timerring {
     display: grid;
     place-items: center;
+    place-content: center;
     border: 0.625rem solid rgba(23, 33, 217, 0.535);
     margin-bottom: 1.875rem;
     border-radius: 50%;
@@ -178,9 +179,18 @@ body.dark .laptimesdisplay {
     color: whitesmoke;
 }
 
-@media (max-width: 116rem) {
+@media (max-width: 117rem) {
     body {
         margin: 0.625rem 19.125rem;
+    }
+
+    #display {
+        font-size: 3.575rem;
+    }
+
+    .times span {
+        font-size: 0.575rem;
+        gap: 0.625rem;
     }
 }
 
@@ -190,13 +200,13 @@ body.dark .laptimesdisplay {
     }
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 25rem) {
     body {
-        padding: 0 1rem;
+        margin: 0 0.9rem;
     }
 
     #display {
-        font-size: 3.5rem;
+        font-size: 1.875rem;
     }
 
     .timerring {
@@ -211,5 +221,10 @@ body.dark .laptimesdisplay {
 
     .controls {
         gap: 0.75rem;
+    }
+
+    .times span {
+        font-size: 0.475rem;
+        gap: 0.625rem;
     }
 }
