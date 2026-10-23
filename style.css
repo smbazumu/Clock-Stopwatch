@@ -189,3 +189,27 @@ body.dark .laptimesdisplay {
         margin: 0.625rem 3.25rem;
     }
 }
+
+@media (max-width: 30rem) {
+    body {
+        padding: 0 1rem;
+    }
+
+    #display {
+        font-size: 3.5rem;
+    }
+
+    .timerring {
+        border-width: 0.375rem;
+        padding-top: 3rem;
+    }
+
+    .times {
+        gap: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .controls {
+        gap: 0.75rem;
+    }
+}
