@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    margin: 0.625rem 31.25rem;
+    margin: 0.625rem 6.25rem;
     background: rgba(120, 169, 182, 0.574);
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
@@ -178,14 +178,14 @@ body.dark .laptimesdisplay {
     color: whitesmoke;
 }
 
-@media (max-width: 115.1875rem) {
+@media (max-width: 116rem) {
     body {
-        margin: 0.625rem 28.125rem;
+        margin: 0.625rem 19.125rem;
     }
 }
 
-@media (max-width: 51.625rem) {
+@media (max-width: 56rem) {
     body {
-        margin: 0.625rem 6.25rem;
+        margin: 0.625rem 3.25rem;
     }
 }
