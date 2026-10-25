@@ -6,7 +6,7 @@
 
 body {
     text-align: center;
-    margin: 0.625rem 21.25rem;
+    margin: 0.625rem 16.25rem;
     max-width: 90rem;
     background: rgba(120, 169, 182, 0.574);
     font-family: "Inconsolata", monospace;
@@ -182,11 +182,26 @@ body.dark .laptimesdisplay {
 
 @media (max-width: 64rem) {
     body {
-        margin: 1rem 5rem;
+        margin: 1rem 7rem;
     }
 
     #display {
-        font-size: 4rem;
+        font-size: 5rem;
+    }
+
+    .times {
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 48rem) {
+    body {
+        margin: 1rem 2rem;
+    }
+
+    #display {
+        font-size: 5rem;
     }
 
     .times {
